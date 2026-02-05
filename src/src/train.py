@@ -13,7 +13,6 @@ from config import (
     OOT_SPLIT_DATE,
 )
 
-
 def main():
     # 1) load processed modeling table
     df = pd.read_parquet(DATA_PROCESSED_PATH)
