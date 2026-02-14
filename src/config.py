@@ -18,7 +18,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 # ------------------------------------------------------------
 # Data locations (raw is read-only; processed is reproducible output)
 # ------------------------------------------------------------
-RAW_DIR = PROJECT_ROOT / "data" / "raw"
+RAW_DIR = PROJECT_ROOT / "raw"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 
 # Ensure processed dir exists (raw dir should exist because you place files there)
